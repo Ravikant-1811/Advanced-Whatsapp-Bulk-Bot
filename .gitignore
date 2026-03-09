@@ -1,2 +1,4 @@
-.auto-sync.log
-.auto-sync.pid
+node_modules/
+.env
+data/store.json
+npm-debug.log*

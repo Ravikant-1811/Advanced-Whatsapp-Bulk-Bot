@@ -1,0 +1,20 @@
+{
+  "name": "advanced-whatsapp-bulk-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Cloud API bot with compliance guardrails",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}
